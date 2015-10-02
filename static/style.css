@@ -1,0 +1,92 @@
+.left_upper{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 960px;
+    height: 520px;
+    background-color: blue;
+}
+.train_destination{
+    text-align: left;
+
+
+}
+.train_displaytime{
+    text-align: left;
+
+.train_estimated{
+    text-align: left;
+}
+p{
+    text-align: center;
+}
+
+
+}
+.right_upper {
+    position: absolute;
+    text-align: left;
+    left:960px;
+    top: 0px;
+    width: 960px;
+    height: 520px;
+}
+.upper_stripe_left{
+    position: absolute;
+    text-align: center;
+    left:0px;
+    top: 520px;
+    width: 960px;
+    height: 80px;
+}
+.upper_stripe_right{
+    position: absolute;
+    text-align: center;
+    left:960px;
+    top: 520px;
+    width: 960px;
+    height: 80px;
+}
+.lower_stripe_left{
+    position: absolute;
+    text-align: center;
+    left:0px;
+    top: 600px;
+    width: 640px;
+    height: 80px;
+}
+.lower_stripe_middle{
+    position: absolute;
+    text-align: center;
+    left:640px;
+    top: 600px;
+    width: 640px;
+    height: 80px;
+}
+.lower_stripe_right{
+    position: absolute;
+    text-align: center;
+    left:1280px;
+    top: 600px;
+    width: 640px;
+    height: 80px;
+}
+.left_lower {
+    position: absolute;
+    text-align: center;
+    left: 0px;
+    top: 680px;
+    width: 960px;
+    height: 400px;
+}
+.right_lower {
+    position: absolute;
+    text-align: center;
+    left: 960px;
+    top: 680px;
+    width: 960px;
+    height: 400px;
+}
+.rubrik{
+    text-align: center;
+}
