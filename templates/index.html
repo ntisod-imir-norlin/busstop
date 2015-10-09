@@ -11,53 +11,44 @@
         <ul>
             <h1 class="rubrik">Tågtider</h1>
             {% for departure in departures %}
-            <li class="train_destination">{{ departure["Destination"] }}</li>
-            {% endfor %}
-            {% for departure in departures %}
-            <li class="train_displaytime">{{ departure["DisplayTime"] }}</li>
-            {% endfor %}
-            {% for departure in departures %}
-            <li class="train_estimated">{{ departure["ExpectedDateTime"] }}</li>
+            <li class="trains">{{ departure["Destination"] }} {{ departure["TExpectedDateTime"] }} {{ departure["TTimeLeft"] }}</li>
             {% endfor %}
         </ul>
-
     </div>
+
      <div class="right_upper">
          <ul>
-             <h1>Busstider</h1>
-
-
-
+             <h1 class="rubrik">Busstider</h1>
          </ul>
-
-
-
-
     </div>
+
     <div class="upper_stripe_left">
         <p>Trafikinfo Tåg</p>
-
     </div>
+
     <div class="upper_stripe_right">
         <p>trafikinfo Buss</p>
-
     </div>
+
     <div class="lower_stripe_left">
         <p>2015-10-2</p>
-
     </div>
+
     <div class="lower_stripe_middle">
         <h1>Välkommen till NTI!</h1>
     </div>
+
     <div class="lower_stripe_right">
         <p>20.00</p>
 
     </div>
+
     <div class="left_lower">
         <h1>Skolinformation</h1>
 
 
     </div>
+
     <div class="right_lower">
         <h1>Matschema</h1>
 

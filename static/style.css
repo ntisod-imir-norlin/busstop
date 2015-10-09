@@ -4,25 +4,23 @@
     top: 0px;
     width: 960px;
     height: 520px;
-    background-color: blue;
 }
-.train_destination{
-    text-align: left;
+.trains{
+    text-align: center;
 
 
 }
-.train_displaytime{
-    text-align: left;
-
-.train_estimated{
-    text-align: left;
+li{
+    font-size: 30px;
+    font-family: fantasy;
+    text-align: center;
 }
-p{
+p {
     text-align: center;
 }
 
 
-}
+
 .right_upper {
     position: absolute;
     text-align: left;

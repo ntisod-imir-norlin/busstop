@@ -1,5 +1,7 @@
 import requests
 
+from datetime import datetime
+
 from settings import key_plats,key_departures
 
 def sites(searchstring):
@@ -22,7 +24,15 @@ def departures(siteid):
     resp = requests.get(url.format(key=key_departures,siteid = siteid))
 
 
-    return resp.json()["ResponseData"]["Trains"][:10]
+    trains= resp.json()["ResponseData"]["Trains"][:10]
+
+    for train in  trains:
+        dt = datetime.strptime(train['ExpectedDateTime'],'%Y-%m-%dT%H:%M:%S')
+
+        train['TExpectedDateTime']= "{hour}:{minute:02d}".format(hour=dt.hour,minute=dt.minute)
+
+        train['TTimeLeft']="9 min"
 
 
-    pass
+    return trains
+
